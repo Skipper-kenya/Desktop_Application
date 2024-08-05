@@ -4,7 +4,7 @@ import path from 'path';
 import { app, BrowserWindow, shell, ipcMain } from 'electron';
 
 app.commandLine.appendSwitch('ignore-certificate-errors');
-
+//
 
 import { autoUpdater } from 'electron-updater';
 import log from 'electron-log';
